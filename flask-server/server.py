@@ -76,7 +76,7 @@ def predict():
         closest_cities = get_2_closest_cities(data['city'], data['province'])
         for city in closest_cities:
             cityData = org_data.copy()
-            cityData['city'] = [city]
+            cityData['city'] = [city[0]]
             cityDataDef = pd.DataFrame(cityData)
             city_prediction = model.predict(cityDataDef)[0]
             result['city_prediction'].append((city[0], city_prediction))
