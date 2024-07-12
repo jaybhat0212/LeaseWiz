@@ -1,0 +1,93 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"],
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.form-group input[type="range"] {
+  width: 100%;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.loading {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.results {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 150px;
+}
+
+.range {
+  margin-top: 20px;
+}
+
+.range-bar {
+  position: relative;
+  height: 20px;
+  margin-top: 20px;
+}
+
+.range-fill {
+  position: absolute;
+  height: 100%;
+  background-color: #007BFF;
+  border-radius: 10px;
+}
+
+.range-marker {
+  position: absolute;
+  top: -25px;
+  font-size: 14px;
+}
+
+.prediction-marker {
+  top: 0px;
+  background-color: white;
+  padding: 2px 5px;
+  border: 1px solid #007BFF;
+  border-radius: 5px;
+}
+
+.rectangle-outline {
+  border: 2px solid #007BFF;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 20px 0;
+}
